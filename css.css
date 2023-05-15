@@ -46,6 +46,15 @@ header{
         display: none;
     }
 
+    .nav.responsive{
+        margin-top: 10px;
+    }
+
+    .nav.responsive a{
+        display:block;
+        text-align: center;
+    }
+
     .menu-icono{
         display: block;
     }
