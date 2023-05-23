@@ -57,6 +57,7 @@ header{
     }
 
     .nav.responsive a{
+        position: relative;
         display:block;
         width: fit-content;
         margin: 40px auto 0 auto;
@@ -84,6 +85,7 @@ header{
     }
 }
 
+/*Empieza el contenido*/
 .contenido1{
     background: url(./Imagenes/imagendh.gif);
     background-repeat: no-repeat;
@@ -94,14 +96,181 @@ header{
 }
 
 .texto1{
-    width: 40%;
-    margin-top: 250px;
-    margin-bottom: 300px;
-    margin-left: 31%;
+    width: 100%;
+    margin-top: 200px;
+    margin-bottom: 350px;
 }
 
 .texto1 h1{
     text-align: center;
-    font-size: 50px;
-    color: rgb(127, 234, 60);
+    font-size: 30px;
+    color: black;
+}
+
+.texto1 p{
+    text-align: center;
+    color: black;
+}
+
+/*Responsive del contenido1*/
+@media screen and (max-width: 768px) {
+    .contenido1{
+        background: url(./Imagenes/imagendh.gif);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 750px;
+    }
+
+    .texto1{
+        width: 100%;
+    }
+
+    .texto1 h1{
+        font-size: 25px;
+    }
+
+}
+
+@media screen and (max-width: 425px) {
+    .contenido1{
+        background: url(./Imagenes/imagendh.gif);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 750px;
+    }
+
+}
+
+/*Bloques*/
+
+.bloques1{
+    display: flex;
+    align-items: center;
+}
+
+.bloques1::before{
+    content: '';
+    background: rgba(77, 77, 92, 0.6);
+    position: absolute;
+    width: 100%;
+    height: 400px;
+    left: 0;
+}
+
+.bloque1{
+    width: 50%;
+    height: 400px;
+    background: url(./Imagenes/calidad.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+    text-align: center;
+}
+
+.bloque1 h1{
+    padding-top: 100px;
+    position: relative;
+}
+
+.bloque1 p{
+    position: relative;
+}
+
+.bloque2{
+    width: 50%;
+    height: 400px;
+    background: url(./Imagenes/bicis.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+    text-align: center;
+}
+
+.bloque2 h1{
+    padding-top: 100px;
+    position: relative;
+}
+
+.bloque2 p{
+    position: relative;
+}
+
+/*Responsive de bloques1*/
+
+@media screen and (max-width: 768px){
+    .bloques1{
+        flex-direction: column;
+    }
+
+    .bloque1{
+        width: 100%;
+    }
+
+    .bloque2{
+        width: 100%;
+    }
+
+    .bloques1::before{
+        content: '';
+        background: rgba(77, 77, 92, 0.6);
+        position: absolute;
+        width: 100%;
+        height: 800px;
+        left: 0;
+    }
+}
+
+.contenido2{
+    background: url(./Imagenes/borjatrial.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 700px;
+    display: flex;
+}
+
+.contenido2::before{
+    content: '';
+    background: rgba(77, 77, 92, 0.6);
+    position: absolute;
+    width: 100%;
+    height: 700px;
+    left: 0;
+}
+
+.texto2{
+    position: relative;
+    width: 100%;
+    margin-top: 200px;
+    margin-bottom: 350px;
+    text-align: center;
+    color: white;
+}
+
+.texto2 a{
+    text-decoration: none;
+    color: white;
+    border: 2px solid;
+    border-radius: 5px;
+    padding: 7px 80px 7px 80px;
+}
+
+.texto2 a:hover{
+    color: red;
+    transition: 0.2s;
+}
+
+/*Responsive contenido2*/
+
+@media screen and (max-width: 768px){
+    .contenido2{
+        background: url(./Imagenes/borjatrial.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
 }
