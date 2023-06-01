@@ -1,0 +1,226 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+header{
+    background-color: rgb(92, 95, 95);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img{
+    width: 150px;
+}
+
+.nav a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    margin-right: 40px;
+    padding: 10px 10px 10px 10px;
+    text-align: center;
+}
+
+.nav a:hover{
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+}
+
+.menu-icono{
+    display: none;
+}
+
+/*Responsive del header*/
+@media screen and (max-width: 768px) {
+    .nav a{
+        display: none;
+    }
+
+    .nav.responsive{
+        margin-top: 50px;
+        padding-bottom: 30px;
+        height: 350px;
+        position: absolute;
+        top: 80px;
+        left: 0;
+        right: 0;
+        width: 100vw;
+        background: rgb(92, 95, 95);
+        transition: 0.2s;
+    }
+
+    .nav.responsive a{
+        position: relative;
+        display:block;
+        width: fit-content;
+        margin: 40px auto 0 auto;
+        text-align: center;
+        transition: 0.5s;
+    }
+
+    .menu-icono{
+        display: block;
+    }
+
+    .menu-icono a{
+        text-decoration: none;
+        color: white;
+        font-size: 25px;
+        margin-right: 30px;
+        padding: 10px 10px 10px 10px;
+    }
+
+    .menu-icono a:hover{
+        background-color: white;
+        color: black;
+        transition: 0.6s;
+        border-radius: 10px;
+    }
+}
+
+/*Empieza contenido*/
+
+.bloques1{
+    display: flex;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.bloquetrial{
+    width: 50%;
+    text-align: center;
+
+}
+
+.bloquetrial img{
+    width: 400px;
+}
+
+.bloquetrial img:hover{
+    transition: 0.1s;
+    width: 450px;
+}
+
+.bloquemtb{
+    width: 50%;
+    text-align: center;
+
+}
+
+.bloquemtb img{
+    width: 400px;
+}
+
+.bloquemtb img:hover{
+    transition: 0.1s;
+    width: 450px;
+}
+
+.bloques2{
+    display: flex;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.bloqueroad{
+    width: 50%;
+    text-align: center;
+}
+
+.bloqueroad img{
+    width: 400px;
+}
+
+.bloqueroad img:hover{
+    transition: 0.1s;
+    width: 450px;
+}
+
+.bloquebmx{
+    width: 50%;
+    text-align: center;
+}
+
+.bloquebmx img{
+    width: 400px;
+}
+
+.bloquebmx img:hover{
+    transition: 0.1s;
+    width: 450px;
+}
+
+/*RESPONSIVE DE BLOQUES*/
+
+@media screen and (max-width: 870px){
+    .bloques1{
+        flex-direction: column;
+    }
+
+    .bloquetrial{
+        padding-bottom: 100px;
+    }
+
+    .bloques2{
+        flex-direction: column;
+    }
+
+    .bloqueroad{
+        padding-bottom: 100px;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .bloques1{
+        align-items: center;
+    }
+
+    .bloquetrial img{
+        width: 300px;
+    }
+
+    .bloquetrial img:hover{
+        transition: 0.1s;
+        width: 350px;
+    }
+
+    .bloquemtb img{
+        width: 300px;
+    }
+
+    .bloquemtb img:hover{
+        transition: 0.1s;
+        width: 350px;
+    }
+
+    .bloques2{
+        align-items: center;
+    }
+
+    .bloqueroad img{
+        width: 300px;
+    }
+
+    .bloqueroad img:hover{
+        transition: 0.1s;
+        width: 350px;
+    }
+
+    .bloquebmx img{
+        width: 300px;
+    }
+
+    .bloquebmx img:hover{
+        transition: 0.1s;
+        width: 350px;
+    }
+}
