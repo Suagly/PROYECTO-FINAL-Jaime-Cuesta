@@ -85,99 +85,50 @@ header{
     }
 }
 
-/*Empieza el Contenido*/
+/*Empieza el contenido*/
 
-.bloques1{
+.contenido1{
     display: flex;
     width: 100%;
-    text-align: center;
-    padding-top: 100px;
 }
 
-.bloque1{
+.imagenbici{
     width: 50%;
+    padding-bottom: 50px;
 }
 
-.bloque1 img{
-    width: 60%;
+.imagenbici img{
+    margin-left: 20px;
+    margin-top: 50px;
+    width: 85%;
 }
 
-.bloque1 img:hover{
-    width: 62%;
-    transition: 0.1s;
-}
-
-.bloque2{
+.informacionbici{
     width: 50%;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
-.bloque2 img{
-    width: 60%;
-}
-
-.bloque2 img:hover{
-    width: 62%;
-    transition: 0.1s;
-}
-
-.bloques2{
-    display: flex;
-    width: 100%;
-    text-align: center;
-    padding-top: 100px;
-    padding-bottom: 100px;
-}
-
-.bloque3{
-    width: 50%;
-}
-
-.bloque3 img{
-    width: 60%;
-}
-
-.bloque3 img:hover{
-    width: 62%;
-    transition: 0.1s;
-}
-
-.bloque4{
-    width: 50%;
-}
-
-.bloque4 img{
-    width: 60%;
-}
-
-.bloque4 img:hover{
-    width: 62%;
-    transition: 0.1s;
+.informacionbici button{
+    width: 200px;
+    padding: 20px 20px 20px 20px;
+    background-color: green;
+    border-color: green;
+    border-radius: 10px;
+    font-size: 20px;
 }
 
 @media screen and (max-width: 768px){
-    .bloques1{
+    .contenido1{
         flex-direction: column;
     }
 
-    .bloque1{
-        width: 100%;
-        padding-bottom: 100px;
-    }
-
-    .bloque2{
+    .imagenbici{
         width: 100%;
     }
 
-    .bloques2{
-        flex-direction: column;
-    }
-
-    .bloque3{
+    .informacionbici{
         width: 100%;
-        padding-bottom: 100px;
-    }
-
-    .bloque4{
-        width: 100%;
+        text-align: center;
     }
 }

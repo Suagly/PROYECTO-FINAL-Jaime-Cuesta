@@ -104,16 +104,15 @@ header{
 .bloquetrial{
     width: 50%;
     text-align: center;
-
 }
 
 .bloquetrial img{
-    width: 400px;
+    width: 72%;
 }
 
 .bloquetrial img:hover{
     transition: 0.1s;
-    width: 410px;
+    width: 74%;
 }
 
 .bloquemtb{
@@ -123,12 +122,12 @@ header{
 }
 
 .bloquemtb img{
-    width: 400px;
+    width: 72%;
 }
 
 .bloquemtb img:hover{
     transition: 0.1s;
-    width: 410px;
+    width: 74%;
 }
 
 .bloques2{
@@ -144,12 +143,12 @@ header{
 }
 
 .bloqueroad img{
-    width: 400px;
+    width: 72%;
 }
 
 .bloqueroad img:hover{
     transition: 0.1s;
-    width: 410px;
+    width: 74%;
 }
 
 .bloquebmx{
@@ -158,23 +157,28 @@ header{
 }
 
 .bloquebmx img{
-    width: 400px;
+    width: 72%;
 }
 
 .bloquebmx img:hover{
     transition: 0.1s;
-    width: 410px;
+    width: 74%;
 }
 
 /*RESPONSIVE DE BLOQUES*/
 
-@media screen and (max-width: 870px){
+@media screen and (max-width: 768px){
     .bloques1{
         flex-direction: column;
     }
 
     .bloquetrial{
+        width: 100%;
         padding-bottom: 100px;
+    }
+
+    .bloquemtb{
+        width: 100%;
     }
 
     .bloques2{
@@ -182,99 +186,12 @@ header{
     }
 
     .bloqueroad{
+        width: 100%;
         padding-bottom: 100px;
     }
-}
 
-@media screen and (max-width: 768px){
-    .bloques1{
-        align-items: center;
-    }
-
-    .bloquetrial img{
-        width: 300px;
-    }
-
-    .bloquetrial img:hover{
-        transition: 0.1s;
-        width: 310px;
-    }
-
-    .bloquemtb img{
-        width: 300px;
-    }
-
-    .bloquemtb img:hover{
-        transition: 0.1s;
-        width: 310px;
-    }
-
-    .bloques2{
-        align-items: center;
-    }
-
-    .bloqueroad img{
-        width: 300px;
-    }
-
-    .bloqueroad img:hover{
-        transition: 0.1s;
-        width: 310px;
-    }
-
-    .bloquebmx img{
-        width: 300px;
-    }
-
-    .bloquebmx img:hover{
-        transition: 0.1s;
-        width: 310px;
-    }
-}
-
-@media screen and (max-width: 426px){
-    .bloques1{
-        align-items: center;
-    }
-
-    .bloquetrial img{
-        width: 200px;
-    }
-
-    .bloquetrial img:hover{
-        transition: 0.1s;
-        width: 210px;
-    }
-
-    .bloquemtb img{
-        width: 200px;
-    }
-
-    .bloquemtb img:hover{
-        transition: 0.1s;
-        width: 210px;
-    }
-
-    .bloques2{
-        align-items: center;
-    }
-
-    .bloqueroad img{
-        width: 200px;
-    }
-
-    .bloqueroad img:hover{
-        transition: 0.1s;
-        width: 210px;
-    }
-
-    .bloquebmx img{
-        width: 200px;
-    }
-
-    .bloquebmx img:hover{
-        transition: 0.1s;
-        width: 210px;
+    .bloquebmx{
+        width: 100%;
     }
 }
 
