@@ -105,11 +105,13 @@ header{
     text-align: center;
     font-size: 30px;
     color: black;
+    text-shadow: 0 0 3px white, 0 0 5px white;
 }
 
 .texto1 p{
     text-align: center;
     color: black;
+    text-shadow: 0 0 3px white, 0 0 5px white;
 }
 
 /*Responsive del contenido1*/
@@ -173,10 +175,12 @@ header{
 .bloque1 h1{
     padding-top: 100px;
     position: relative;
+    text-shadow: 0 0 3px black, 0 0 5px black;
 }
 
 .bloque1 p{
     position: relative;
+    text-shadow: 0 0 3px black, 0 0 5px black;
 }
 
 .bloque2{
@@ -193,10 +197,12 @@ header{
 .bloque2 h1{
     padding-top: 100px;
     position: relative;
+    text-shadow: 0 0 3px black, 0 0 5px black;
 }
 
 .bloque2 p{
     position: relative;
+    text-shadow: 0 0 3px black, 0 0 5px black;
 }
 
 /*Responsive de bloques1*/
@@ -249,11 +255,13 @@ header{
     margin-bottom: 350px;
     text-align: center;
     color: white;
+    text-shadow: 0 0 3px black, 0 0 5px black;
 }
 
 .texto2 a{
     text-decoration: none;
     color: white;
+    text-shadow: 0 0 3px black, 0 0 5px black;
     border: 2px solid;
     border-radius: 5px;
     padding: 7px 80px 7px 80px;
